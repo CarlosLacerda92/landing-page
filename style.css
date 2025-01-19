@@ -32,6 +32,10 @@ a {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.header ul,
+.hero .text .content span {
     font-size: 1.125rem;
     color: #E5E7EB;
 }
@@ -42,6 +46,57 @@ a {
 }
 
 .header,
+.hero,
 .footer {
     background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10rem;
+    gap: 3rem;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.hero .text .title span {
+    font-size: 3rem;
+    color: #FAF9F8;
+    font-weight: 900;
+}
+
+.button,
+.call-to-action {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    border-radius: 0.5rem;
+}
+
+.button {
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 8rem;
+    /* align-self: flex-start; */
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.hero .image {
+    background-color: #6D747D;
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .image span {
+    color: #FFFFFF;
 }
