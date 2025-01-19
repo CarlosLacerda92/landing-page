@@ -198,3 +198,9 @@ a {
     background-color: transparent;
     color: #FFFFFF;
 }
+
+.footer {
+    padding: 2rem;
+    color: #FFFFFF;
+    text-align: center;
+}
